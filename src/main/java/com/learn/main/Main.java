@@ -11,6 +11,8 @@ public class Main {
         configPath = "C:\\Users\\suraj_rawat\\IdeaProjects\\19-12-22\\src\\main\\resources\\config.properties";
       //  ReadConfig configFile = new ReadConfig(configPath);
         Boolean key = true;
+
+        //suraj
         while (key) {
             System.out.println("Choose an Option:");
             System.out.println();
@@ -73,6 +75,8 @@ public class Main {
                         break;
 
                     }
+                    case 7:
+                        break;
                     default:
                         System.out.println("Something went wrong");
                 }
